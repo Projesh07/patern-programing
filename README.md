@@ -1,20 +1,5 @@
 # patern-programing
 
-# 	012345
-# 0	 ****
-# 1	*	   *
-# 2	******
-# 3	*	   *
-# 4	*	   *
-# 5 *    *
+A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 
-# 	012345
-# 0	*****
-# 1	*	   *
-# 2	*	   *
-# 3	****
-# 4	*	   *
-# 5	*	   *
-# 6 *****
-
-And other Pattern solving using 2d Matrix
+And other Patterns solved using 2d Matrix
