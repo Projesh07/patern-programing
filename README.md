@@ -11,12 +11,12 @@ Here is an Example:
 
 # 	0 1 2 3 4 5 6
 # 0	  * * * * *  
-# 1	*	          *
-# 2	* * * * * * *
-# 3	*	          *
-# 4	*	          *
-# 5 *           *
-# 6 *           *
+# 1	*	     *
+# 2	* * * * * * **
+# 3	*	     *
+# 4	*	     *
+# 5     *            *
+# 6     *            *
 
 # 7x7 matrix
 
@@ -31,7 +31,7 @@ for row in range(7):                            # Looping through Row
 		else:
 			print ' ',                                # This print is for every space where * is not needed
 
-	print ""                                      #This print is for every new line after each Row
+	print ""                                                  #This print is for every new line after each Row
 
 
 More are comming soon. when time and things are getting cool.
