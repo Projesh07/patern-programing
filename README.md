@@ -9,20 +9,20 @@ To print  patterns of 2D matrix you have to use two for loops. In  this program 
 Here is an Example:
 
 
-# 	0 1 2 3 4 5 6
-# 0	  * * * * *  
-# 1	*	     *
-# 2	* * * * * * **
-# 3	*	     *
-# 4	*	     *
-# 5     *            *
-# 6     *            *
+	# 	0 1 2 3 4 5 6
+	# 0	  * * * * *  
+	# 1	*	     *
+	# 2	* * * * * * **
+	# 3	*	     *
+	# 4	*	     *
+	# 5     *            *
+	# 6     *            *
 
-# 7x7 matrix
+	# 7x7 matrix
 
-                        # Looping through Row
+                        
 
-	for row in range(7):    
+	for row in range(7):      			      # Looping through Row
 		for col in range(7):                          # Looping through Column
 
 			if (row==0 or row==3) and (col>0 and col<4):
