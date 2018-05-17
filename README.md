@@ -20,18 +20,19 @@ Here is an Example:
 
 # 7x7 matrix
 
-for row in range(7):                            # Looping through Row
+                        # Looping through Row
 
-	for col in range(7):                          # Looping through Column
+	for row in range(7):    
+		for col in range(7):                          # Looping through Column
 
-		if (row==0 or row==3) and (col>0 and col<4):
-			print '*',                                #This print is used to print star in a position where condition matches
-		elif (col ==0 or col==4) and row !=0:
-			print '*',                                #This print is used to print star in a position where condition matches
-		else:
-			print ' ',                                # This print is for every space where * is not needed
+			if (row==0 or row==3) and (col>0 and col<4):
+				print '*',                                #This print is used to print star in a position where condition matches
+			elif (col ==0 or col==4) and row !=0:
+				print '*',                                #This print is used to print star in a position where condition matches
+			else:
+				print ' ',                                # This print is for every space where * is not needed
 
-	print ""                                                  #This print is for every new line after each Row
+		print ""                                                  #This print is for every new line after each Row
 
 
 More are comming soon. when time and things are getting cool.
